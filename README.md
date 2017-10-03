@@ -13,6 +13,7 @@ August 2, 2017: First Blogpost<br/>
 August 3, 2017: Images shrunk to 690 pixels<br/>
 August 4, 2017: Added details page for each image<br/>
 August 9, 2017: Finished fine tuning (text editing)<br/>
+October 2, 2017: Added geolocation.html for testing HTML5 Geolocation function across different browsers<br />
 
 # CSS Templates
 The CSS templates are provided by:<br/>
