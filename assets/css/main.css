@@ -1598,7 +1598,8 @@
 
 	body {
 		background-color: #fff;
-		color: #666;
+//		color: #666;
+		color: #000000;        
 	}
 
 	body, input, select, textarea {
@@ -1671,7 +1672,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #484848;
+//		color: #484848;
+        color: #1a1a1a;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2558,11 +2560,17 @@
 	}
 
 	header p {
-		color: #aaa;
+//		color: #aaa;
+        color: #333333;
+        
 		position: relative;
 		margin: 0 0 1.5em 0;
 		text-transform: uppercase;
 	}
+
+    header p.discount {
+        color: red;
+    }
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2735,7 +2743,10 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+
+//            background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+            background-image: url("images/overlay.png"), url("../../images/20170909_112346_1080.jpg");
+            
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3090,7 +3101,10 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+        
+// background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+        background-image: url("images/overlay.png"), url("../../images/20170909_112346_1080.jpg");
+        
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
