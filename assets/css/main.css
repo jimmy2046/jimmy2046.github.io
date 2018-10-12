@@ -2576,6 +2576,10 @@
       color: red;
     }
 
+    h3.vacation {
+      color: red;
+    }
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -3123,7 +3127,8 @@
 		#banner h2 {
 			color: #ffffff;
 			display: inline-block;
-			font-size: 3.5em;
+//			font-size: 3.5em;
+            font-size: 5.5 em;
 			line-height: 1.35;
 			margin-bottom: 0.5em;
 		}
@@ -3131,7 +3136,8 @@
 		#banner p {
 			// color: #aaa;
             color: #ffffff;
-			font-size: 1.5em;
+//			font-size: 1.5em;
+            font-size: 3.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
 		}
@@ -3143,7 +3149,8 @@
 			}
 
 				#banner h2 {
-					font-size: 2.5em;
+//					font-size: 2.5em;
+                    font-size: 4.5em;
 				}
 
 		}
@@ -3167,11 +3174,13 @@
 				}
 
 				#banner h2 {
-					font-size: 2.25em;
+//					font-size: 2.25em;
+                    font-size: 4.25em;
 				}
 
 				#banner p {
-					font-size: 1.25em;
+//					font-size: 1.25em;
+                    font-size: 3.25em;
 				}
 
 		}
