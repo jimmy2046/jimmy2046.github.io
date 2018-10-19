@@ -28,6 +28,7 @@
 
 	ol, ul {
 		list-style: none;
+        font-size: 1.5em;
 	}
 
 	blockquote, q {
@@ -2434,6 +2435,7 @@
 
 				ul.icons li .icon:before {
 					font-size: 2em;
+
 				}
 
 		ul.actions {
@@ -2664,6 +2666,10 @@
 
 /* Table */
 
+    table.myTableFormat tr td {
+        font-size: 1.5em;
+    }
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -2753,8 +2759,7 @@
 		.wrapper.style3 {
 			background-attachment: fixed;
 
-//            background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-            background-image: url("images/overlay.png"), url("../../images/20170909_112346_1080.jpg");
+            background-image: url("images/overlay.png"), url("../../images/20170909_112346_resized_2.jpg");
             
 			background-position: center center;
 			background-size: cover;
@@ -3111,8 +3116,8 @@
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
         
-// background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-        background-image: url("images/overlay.png"), url("../../images/20170909_112346_1080.jpg");
+ background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+        background-image: url("images/overlay.png"), url("../../images/20170909_112309_1080.jpg");
         
 		background-position: center top;
 		background-size: cover;
